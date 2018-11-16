@@ -15,7 +15,7 @@ export class Start{
     _configureRouter(){
         let routes = [
             {route: '', title: 'Main', moduleId: PLATFORM.moduleName('./start')},
-            {route: 'menus/left-menu', title: 'Left Menu', moduleId: PLATFORM.moduleName('./menus/left-menu')}
+            // {route: 'menus/left-menu', title: 'Left Menu', moduleId: PLATFORM.moduleName('./menus/left-menu')}
         ];
         this.router.configure(config =>{
             config.title ='Score Card';

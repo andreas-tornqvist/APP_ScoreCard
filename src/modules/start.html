@@ -1,8 +1,12 @@
 <template>
+    <require from="./menus/left-menu"></require>
     <div class="row">
         <div class="col-md-3">
+            <left-menu></left-menu>
+        </div>
+        <div class="col-md-6">
             <router-view></router-view>
         </div>
+        Hej på dig!
     </div>
-    Hej på dig!
 </template>
